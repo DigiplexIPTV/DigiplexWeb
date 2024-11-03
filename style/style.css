@@ -84,7 +84,8 @@ body {
 
 #timeinfo {
   margin-right: 20px;
-  text-align: right
+  text-align: right;
+  margin: 25px;
 }
 
 .channelinfo.name {
