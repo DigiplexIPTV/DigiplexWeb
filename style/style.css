@@ -68,8 +68,8 @@ body {
 }
 
 .channelinfotext {
-  margin-right: 20px;
-  text-align: right
+  margin-right: 25px;
+  text-align: right;
 }
 
 #osd .channelinfotext {
@@ -479,4 +479,22 @@ body {
   width: 66px;
   padding-left: 13px;
   padding-top: 23px;
+}
+
+
+.infoicon {
+  height: 53px;
+  padding: 7px;
+  position: absolute;
+}
+
+.infoicon.infoinfoicon {
+  padding: 26px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.infoicon.tvinfoicon {
+  height: initial;
+  width: 53px;
+  padding: 22px;
 }
