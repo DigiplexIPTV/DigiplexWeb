@@ -1756,5 +1756,15 @@ const d = new Date();
 document.getElementById("epgd").innerHTML = d.toDateString();
 </script>
 
+  <script>
+    function isIOS() {
+      return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    }
+
+    if (isIOS()) {
+      window.location.href = "incompatible.html"; // Replace with your error page URL
+    }
+  </script>
+
 </body>
 </html>
